@@ -26,12 +26,7 @@ set showcmd
 set cmdheight=1
 set laststatus=2
 
-colorscheme gruvbox
-highlight Normal guibg=none
-
-
-set suffixesadd=.js,.es,.jsx,.json,.css,.php,.py,.md
-
+set suffixesadd=.js,.es,.jsx,.json,.css,.less,.php,.py,.md
 
 
 " Imports
