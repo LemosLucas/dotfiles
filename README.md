@@ -24,4 +24,20 @@ A symlink was created referencing this repo like below:
 ln -s ~/Documents/Dev/dotfiles/.tmux.conf  ~/
 ```
 
+# Custom scripts
+Some custome scripts also live in this repo. `ide-tmux` creates several panels to simulate an IDE-like experience.
+To make it available everywhere, I did the following:
+ - Created a folder to place all this family of scripts: "~/Documents/Dev/bin"
+ - Symlinked this script to that folder location:
 
+ ```bash
+ ln -s ~/Documents/Dev/dotfiles/ide-tmux ~/Documents/Dev/bin
+ ```
+ Since I'm using `zsh` as my bash, I've included the following lines in by ~/.zshrc file:
+ ```bash
+ ...
+ export PATH=$PATH:~/Documents/Dev/bin
+ ```
+ It adds this folder to the `$PATH` environment variable and makes it available no matter which folder I'm currently visiting
+
+ - [ ] In case some new scripts come up, I think it's worth to create a `bin` folder in this dotfile repo so that we can symlink the whole folderH
