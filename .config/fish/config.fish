@@ -14,4 +14,4 @@ set -gx PATH ~/Documents/Dev/bin $PATH
 alias ll "exa -l -g --icons"
 alias lla "ll -a"
 alias llt "exa --tree --level=2 --long --icons --git-ignore"
-
+alias llta "llt -a --ignore-glob=.git"
