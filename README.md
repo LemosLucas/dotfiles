@@ -40,4 +40,21 @@ To make it available everywhere, I did the following:
  ```
  It adds this folder to the `$PATH` environment variable and makes it available no matter which folder I'm currently visiting
 
- - [ ] In case some new scripts come up, I think it's worth to create a `bin` folder in this dotfile repo so that we can symlink the whole folderH
+ - [ ] In case some new scripts come up, I think it's worth to create a `bin` folder in this dotfile repo so that we can symlink the whole folder
+
+# fish
+I installed [fish](https://fishshell.com/) as a default bash since it provides several good defaults out of the box. Its [docs](https://fishshell.com/docs/current/index.html#) are very helpful.
+On top of `fish`, I'm using:
+ - [fisher](https://github.com/jorgebucaran/fisher): plugin manager
+ - [NerdFonts](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts): provide custom symbols on terminal, which I installed using default Homebrew (see below)
+ - [tide](https://github.com/IlanCosman/tide): fancy Fish prompt
+ - [z](https://github.com/jethrokuan/z): an intelligent finder based on recency and frequency to find the directory you aim to go to
+ - [exa](https://the.exa.website/): a replacement for `ls` using NerdFont icons and colors (see `config.shell` for some aliases using it)
+ - [peco](https://github.com/peco/peco): a interactive filtering tool that can take input from multiple places (see `functions/peco_select_history.fish` for an example using it)
+   - This is a *powerful* tool. See [these](https://github.com/peco/peco/wiki/Sample-Usage) usecases 
+
+NerdFonts was installed like this:
+```shell
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
