@@ -43,6 +43,8 @@ export PATH=$PATH:~/Documents/Dev/dotfiles/bin
 It adds this folder to the `$PATH` environment variable and makes it available no matter which folder I'm currently visiting
 
 # TODO
+- [ ] Convert neovim config from .vim to .lua
+  - Write about how to install necessary plugins
 - [ ] Add `.gitconfig` file
 - [ ] Create a install script for the dotfiles in this repo
 
