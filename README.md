@@ -9,7 +9,7 @@ ln -s ~/Documents/Dev/dotfiles/.config/nvim  ~/.config
 ```
 
 # tmux
-Install emux with `brew install tmux`
+Install tmux with `brew install tmux`
 All my tmux config was taken from [devaslife](https://github.com/craftzdog/dotfiles-public/blob/master/.tmux.conf). He also has a [video tutorial](https://www.youtube.com/watch?v=sSOfr2MtRU8) showcasing how he uses it.
 
 ## Useful commands
@@ -41,6 +41,10 @@ export PATH=$PATH:~/Documents/Dev/dotfiles/bin
 ```
 
 It adds this folder to the `$PATH` environment variable and makes it available no matter which folder I'm currently visiting
+
+# TODO
+- [ ] Add `.gitconfig` file
+- [ ] Create a install script for the dotfiles in this repo
 
 
 
