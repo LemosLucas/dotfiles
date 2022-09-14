@@ -1,12 +1,25 @@
 This repo contains the dotfiles relative to my personal configuration
+# General home brew stuff
+This is the list of installed components from brew
+```sh
+brew install ripgrep    # Recommended grep search for neovim Telescope live_grep and grep_string
+brew install fd         # Recommended finder for neovim
+```
 
-# nvim
+# neovim
 Install neovim with `brew install neovim`
 I created a symlink for the nvim config files like this:
 
 ```bash
 ln -s ~/Documents/Dev/dotfiles/.config/nvim  ~/.config
 ```
+## Packer (neovim package manager)
+[Packer](https://github.com/wbthomason/packer.nvim#quickstart) manages the installation of all neovim. Once installed, run:
+```sh
+:PackerInstall
+:PackerUpdate
+```
+
 
 # tmux
 Install tmux with `brew install tmux`
