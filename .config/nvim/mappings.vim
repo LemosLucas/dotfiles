@@ -20,12 +20,3 @@ map Sh <C-w>H
 map Sj <C-w>J
 map Sk <C-w>K
 map Sl <C-w>L
-
-
-"-----------------------------
-" Tabs
-
-" Open current directory
-nmap te :tabedit 
-nmap <S-Tab> :tabprev<Return>
-nmap <Tab> :tabnext<Return>
