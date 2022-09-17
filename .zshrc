@@ -17,3 +17,6 @@ alias view="vim -R"
 # Activate starship
 eval "$(starship init zsh)"
 
+# Enable vi mode on terminal
+bindkey -v
+
