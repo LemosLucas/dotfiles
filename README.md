@@ -4,6 +4,7 @@ This is the list of installed components from brew
 ```sh
 brew install ripgrep    # Recommended grep search for neovim Telescope live_grep and grep_string
 brew install fd         # Recommended finder for neovim
+brew install node       # Installing npm and nodeJS
 ```
 
 # neovim
@@ -44,20 +45,10 @@ NerdFonts was installed like this:
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 ```
-
-# Custom scripts
-Some custome scripts also live in this repo. `ide-tmux` creates several panels to simulate an IDE-like experience.
-Since I'm using `zsh` as my bash, I've included the following lines in by ~/.zshrc file:
-```bash
-...
-export PATH=$PATH:~/Documents/Dev/dotfiles/bin
-```
-
-It adds this folder to the `$PATH` environment variable and makes it available no matter which folder I'm currently visiting
+Then, install the **Complete** nerd fonts!
 
 # TODO
-- [ ] Convert neovim config from .vim to .lua
-  - Write about how to install necessary plugins
+- [ ] Look for a theme plugin to use with Telescope
 - [ ] Add `.gitconfig` file
 - [ ] Create a install script for the dotfiles in this repo
 
