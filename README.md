@@ -48,9 +48,9 @@ brew install --cask font-hack-nerd-font
 Then, install the **Complete** nerd fonts!
 
 # TODO
-- [ ] Look for a theme plugin to use with Telescope
-- [ ] Add `.gitconfig` file
+- [ ] Continue neovim installation with [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+  - An example config can been [here](https://github.com/LunarVim/Neovim-from-scratch/blob/master/lua/user/nvim-tree.lua)
 - [ ] Create a install script for the dotfiles in this repo
-
-
+  - Running `brew leaves` shows all manually installed packages on my machine
+  - Running `brew leaves | xargs -n1 brew desc --eval-all` shows pkg names and their descriptions
 
