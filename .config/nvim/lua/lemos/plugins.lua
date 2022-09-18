@@ -1,7 +1,7 @@
 local status_ok, packer = pcall(require, 'packer')
 if not status_ok then
   print ('Unable to load Packer. Exiting from ' .. vim.api.nvim_buf_get_name(0))
-  return 
+  return
 end
 
 return packer.startup(function(use)
@@ -12,7 +12,7 @@ return packer.startup(function(use)
       'nvim-telescope/telescope.nvim', tag = '0.1.0',
       requires = { {'nvim-lua/plenary.nvim'} }
     }
-    
+
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
     -- Tree sitter
@@ -43,6 +43,7 @@ return packer.startup(function(use)
     }
 
     -- Snippets engine
-    use 'L3MON4D3/LuaSnip' 
+    use 'L3MON4D3/LuaSnip'
+
 end)
 
