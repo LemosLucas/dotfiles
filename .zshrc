@@ -2,6 +2,9 @@ HOME_DIR=$(cd ~; pwd)
 DOTFILES=$(dirname $(readlink ${HOME_DIR}/.zshrc))
 GITHUB_REPO=$(cd ${DOTFILES}/..; pwd)
 
+# Makes ls command to use color output
+export CLICOLORS=1
+
 # Add my custom bin directory to PATH
 export PATH=$PATH:$DOTFILES/bin
 
