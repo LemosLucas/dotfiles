@@ -2,18 +2,25 @@ This repo contains the dotfiles relative to my personal configuration
 # General home brew stuff
 This is the list of installed components from brew
 ```sh
-brew install ripgrep    # Recommended grep search for neovim Telescope live_grep and grep_string
-brew install fd         # Recommended finder for neovim
-brew install node       # Installing npm and nodeJS
+brew install exa      # Modern replacement for 'ls'
+brew install fd       # Simple, fast and user-friendly alternative to find
+brew install flyctl   # Command-line tools for fly.io services
+brew install gh       # GitHub command-line tool
+brew install neovim   # Ambitious Vim-fork focused on extensibility and agility
+brew install nmap     # Port scanning utility for large networks
+brew install node     # Platform built on V8 to build network applications
+brew install ripgrep  # Search tool like grep and The Silver Searcher
+brew install starship # Cross-shell prompt for astronauts
+brew install tmux     # Terminal multiplexer
 ```
 
 # neovim
-Install neovim with `brew install neovim`
 I created a symlink for the nvim config files like this:
 
 ```bash
 ln -s ~/Documents/Dev/dotfiles/.config/nvim  ~/.config
 ```
+
 ## Packer (neovim package manager)
 [Packer](https://github.com/wbthomason/packer.nvim#quickstart) manages the installation of all neovim. Once installed, run:
 ```sh
@@ -39,7 +46,7 @@ A symlink was created referencing this repo like below:
 ```bash
 ln -s ~/Documents/Dev/dotfiles/.tmux.conf  ~/
 ```
-
+# NerdFonts
 NerdFonts was installed like this:
 ```shell
 brew tap homebrew/cask-fonts
