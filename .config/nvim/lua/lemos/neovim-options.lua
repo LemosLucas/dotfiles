@@ -1,3 +1,7 @@
+-- Disabling netrw since 'nvim-tree' will be loaded to replace it
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- Set custom options for neovim configuration
 local options = {
   tabstop = 2,

@@ -35,3 +35,7 @@ keymap('', 'Sl', '<C-w>L', opts)
 -- Split Window
 keymap('n', 'ss', ':split<Return>', opts)
 keymap('n', 'sv', ':vsplit<Return>', opts)
+
+
+-- Nvim-tree
+keymap('n', '<leader>e', ':NvimTreeToggle<Return>', opts)

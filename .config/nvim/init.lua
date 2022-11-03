@@ -1,5 +1,6 @@
 -- Load all lua configuration files
 require ('lemos.neovim-options')      -- My custom editor options
+require ('lemos.nvim-tree')           -- Nvim-tree configuration
 require ('lemos.keymaps')             -- My custom keymaps
 require ('lemos.plugins')             -- Load all installed plugins
 require ('lemos.colorscheme')         -- Set color scheme

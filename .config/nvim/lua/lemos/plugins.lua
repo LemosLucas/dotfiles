@@ -45,5 +45,13 @@ return packer.startup(function(use)
     -- Snippets engine
     use 'L3MON4D3/LuaSnip'
 
+    -- NvimTree - replacement for NetRw
+    use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+        'nvim-tree/nvim-web-devicons', -- optional, for file icons
+      },
+      --tag = 'nightly' -- optional, updated every week. (see issue #1193)
+    }
 end)
 
