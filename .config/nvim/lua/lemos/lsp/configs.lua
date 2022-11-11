@@ -17,7 +17,7 @@ local lspconfig = require("lspconfig")
 
 mason.setup()
 
-local servers = { "jsonls", "sumneko_lua" }
+local servers = { "jsonls", "sumneko_lua", "tsserver", "tailwindcss" }
 
 lsp_installer.setup({
 	ensure_installed = servers,

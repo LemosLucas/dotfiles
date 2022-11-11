@@ -53,5 +53,13 @@ return packer.startup(function(use)
       },
       --tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
+
+    -- Formatters and Linters
+    use {
+      'jose-elias-alvarez/null-ls.nvim',
+      requires = {
+        'nvim-lua/plenary.nvim'
+      }
+    }
 end)
 
