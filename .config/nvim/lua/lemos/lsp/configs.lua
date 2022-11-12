@@ -24,15 +24,15 @@ lsp_installer.setup({
   automatic_installation = true,
 })
 
+local opts = {
+  on_attach = require("lemos.lsp.handlers").on_attach,
+  capabilities = require("lemos.lsp.handlers").capabilities,
+}
+
 for _, server in pairs(servers) do
-	local opts = {
-		on_attach = require("lemos.lsp.handlers").on_attach,
-		capabilities = require("lemos.lsp.handlers").capabilities,
-	}
 	local has_custom_opts, server_custom_opts = pcall(require, "lemos.lsp.settings." .. server)
 	if has_custom_opts then
 		opts = vim.tbl_deep_extend("force", opts, server_custom_opts)
 	end
 	lspconfig[server].setup(opts)
 end
-

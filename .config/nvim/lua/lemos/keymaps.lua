@@ -1,7 +1,5 @@
 local opts = { noremap = true, silent = true }
 
-local term_opts = { silent = true }
-
 -- Shorten function name
 local keymap = vim.api.nvim_set_keymap
 
@@ -39,3 +37,6 @@ keymap('n', 'sv', ':vsplit<Return>', opts)
 
 -- Nvim-tree
 keymap('n', '<leader>e', ':NvimTreeToggle<Return>', opts)
+
+-- Format documents
+keymap('n', '<leader>fo', ':Format<Return>', opts)
