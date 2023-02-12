@@ -44,7 +44,6 @@ ln -s ~/Documents/Dev/dotfiles/.config/nvim  ~/.config
 
 
 # tmux
-Install tmux with `brew install tmux`
 All my tmux config was taken from [devaslife](https://github.com/craftzdog/dotfiles-public/blob/master/.tmux.conf). He also has a [video tutorial](https://www.youtube.com/watch?v=sSOfr2MtRU8) showcasing how he uses it.
 
 ## Useful commands

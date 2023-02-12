@@ -139,7 +139,7 @@ nvim_tree.setup({
   },
   filters = {
     dotfiles = false,
-    custom = {"^\\.git"},
+    custom = {"^\\.git$"},
     exclude = {},
   },
   filesystem_watchers = {
@@ -148,7 +148,7 @@ nvim_tree.setup({
   },
   git = {
     enable = true,
-    ignore = true,
+    ignore = false,
     show_on_dirs = true,
     timeout = 400,
   },
