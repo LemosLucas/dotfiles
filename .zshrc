@@ -5,8 +5,8 @@ GITHUB_REPO=$(cd ${DOTFILES}/..; pwd)
 # Makes ls command to use color output
 export CLICOLORS=1
 
-# Add my custom bin directory to PATH
-export PATH=$PATH:$DOTFILES/bin
+# Add my custom bin directory to PATH + VSCode
+export PATH=$PATH:$DOTFILES/bin:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Add custom directories to CDPATH
 export CDPATH=".:${GITHUB_REPO}"
@@ -23,3 +23,5 @@ eval "$(starship init zsh)"
 # Enable vi mode on terminal
 bindkey -v
 
+# Make `asdf` package manager available
+. /usr/local/opt/asdf/libexec/asdf.sh
