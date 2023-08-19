@@ -12,6 +12,7 @@ brew install node     # Platform built on V8 to build network applications
 brew install ripgrep  # Search tool like grep and The Silver Searcher
 brew install starship # Cross-shell prompt for astronauts
 brew install tmux     # Terminal multiplexer
+brew install act      # Github Action local runner
 
 # Linters and formatters
 brew tap "rhysd/actionlint" "https://github.com/rhysd/actionlint"
