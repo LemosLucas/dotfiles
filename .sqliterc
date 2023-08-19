@@ -1,2 +1,7 @@
 .header on
 .mode column
+
+-- Foreign Keys are enabled **by session** and cannot be enabled at the database level
+-- With this, I guarantee that, whichever sqlite3 database I open, foreng keys constraints
+-- will be enforced
+PRAGMA Foreign_Keys = ON
