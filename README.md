@@ -14,11 +14,13 @@ brew install starship # Cross-shell prompt for astronauts
 brew install tmux     # Terminal multiplexer
 brew install act      # Github Action local runner
 
+brew tap oven-sh/bun # Installing bun (JS runtime & package manager)
+brew install bun
+
 # Linters and formatters
 brew tap "rhysd/actionlint" "https://github.com/rhysd/actionlint"
 brew install actionlint
 brew install fsouza/prettierd/prettierd
-brew install sqlfluff                   # Auto format SQL code
 brew install shfmt                      # Autoformat shell scripts
 
 ```
