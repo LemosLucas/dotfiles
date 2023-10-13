@@ -40,3 +40,7 @@ keymap('n', '<leader>e', ':NvimTreeToggle<Return>', opts)
 
 -- Format documents
 keymap('n', '<leader>fo', ':Format<Return>', opts)
+
+-- Makefile
+keymap('n', '<leader>mkd', ':make<Return>', opts) -- Running default target on Makefile
+keymap('n', '<leader>mkr', ':make run<Return>', opts) -- Running 'run' target on Makefile

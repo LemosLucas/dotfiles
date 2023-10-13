@@ -25,3 +25,6 @@ bindkey -v
 
 # Make `asdf` package manager available
 . /usr/local/opt/asdf/libexec/asdf.sh
+
+# bun completions
+[ -s "/Users/lucaslemos/.bun/_bun" ] && source "/Users/lucaslemos/.bun/_bun"

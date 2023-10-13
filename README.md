@@ -13,6 +13,7 @@ brew install ripgrep  # Search tool like grep and The Silver Searcher
 brew install starship # Cross-shell prompt for astronauts
 brew install tmux     # Terminal multiplexer
 brew install act      # Github Action local runner
+brew install llvm     # Necessary to install [clangd](https://clangd.llvm.org/installation.html)
 
 brew tap oven-sh/bun # Installing bun (JS runtime & package manager)
 brew install bun

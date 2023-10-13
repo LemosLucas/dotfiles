@@ -12,5 +12,7 @@ null_ls.setup({
     null_ls.builtins.formatting.shfmt,            -- A shell parser, formatter, and interpreter
     null_ls.builtins.diagnostics.eslint_d,        -- ESLint diagnostics
     null_ls.builtins.diagnostics.actionlint,      -- static checker for GitHub Actions workflow files
+    null_ls.builtins.formatting.clang_format,     -- clang-format to format C++ code
   }
 })
+
