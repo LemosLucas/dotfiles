@@ -42,5 +42,5 @@ keymap('n', '<leader>e', ':NvimTreeToggle<Return>', opts)
 keymap('n', '<leader>fo', ':Format<Return>', opts)
 
 -- Makefile
-keymap('n', '<leader>mkd', ':make<Return>', opts) -- Running default target on Makefile
-keymap('n', '<leader>mkr', ':make run<Return>', opts) -- Running 'run' target on Makefile
+keymap('n', '<leader>mkd', ':w<Return> :make<Return>', opts) -- Running default target on Makefile
+keymap('n', '<leader>mkr', ':w<Return> :make run<Return>', opts) -- Running 'run' target on Makefile
