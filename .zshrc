@@ -28,3 +28,7 @@ bindkey -v
 
 # bun completions
 [ -s "/Users/lucaslemos/.bun/_bun" ] && source "/Users/lucaslemos/.bun/_bun"
+
+# I installed JDK 22 from Oracle and I found no other way for macos to use
+# that java version apart from the solution below
+export PATH="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin:$PATH"
