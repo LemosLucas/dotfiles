@@ -11,4 +11,4 @@ require('lemos.telescope')      -- My custom telescope config
 require('lemos.null-ls')        -- Configs for linting and formatting
 require('lemos.supermaven')     -- Supermaven configs
 
-print('Arraay, loading from lua')
+print('llemos: lua config loaded')
