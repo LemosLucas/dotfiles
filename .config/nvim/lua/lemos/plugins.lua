@@ -68,5 +68,8 @@ return packer.startup(function(use)
 
   -- Supermaven
     use { "supermaven-inc/supermaven-nvim" }
+
+  -- Github Copilot
+    use { "github/copilot.vim" }
 end)
 
