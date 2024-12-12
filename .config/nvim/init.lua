@@ -9,6 +9,5 @@ require('lemos.lsp')            -- My custom lsp config
 require('lemos.treesitter')     -- My custom treesitter config
 require('lemos.telescope')      -- My custom telescope config
 require('lemos.null-ls')        -- Configs for linting and formatting
-require('lemos.supermaven')     -- Supermaven configs
 
 print('llemos: lua config loaded')
