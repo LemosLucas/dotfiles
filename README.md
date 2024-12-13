@@ -14,6 +14,7 @@ brew install starship # Cross-shell prompt for astronauts
 brew install tmux     # Terminal multiplexer
 brew install act      # Github Action local runner
 brew install llvm     # Necessary to install [clangd](https://clangd.llvm.org/installation.html)
+brew install imagemagick # Image processing library: https://imagemagick.org/script/index.php
 
 brew tap oven-sh/bun # Installing bun (JS runtime & package manager)
 brew install bun
